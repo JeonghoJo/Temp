@@ -1,0 +1,28 @@
+html{color:#999;
+background-color:#333;
+		padding:20px 0;
+		font: 12px/18px "맑은 고딕", "Malgun Gothic", "굴림", "Gulim", Verdan, Arial, Tahoma;
+}
+
+#logo{ display:inline;}
+
+#sign_out{ display:inline; float:right; color:#999;padding:20px 0;}
+#sign_out a:hover, a:active {color:#999; text-decoration:underline;}
+#sign_out a:visited, a:link {color:#999;text-decoration:none;}
+
+#bag_content {overflow:auto;
+							width:960px;
+							padding:0; 
+							border:0;
+							color:#fff;
+							}
+#bag_img li {float:left;
+						margin:100px 50px 0px 50px;
+						display:block;
+						text-align:center; }
+						
+#bag_delete {
+							margin:0;
+							padding:0;
+							clear: both;
+}

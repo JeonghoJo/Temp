@@ -1,0 +1,11 @@
+CREATE DATABASE web2012 DEFAULT CHARACTER SET utf8 DEFAULT COLLATE utf8_general_ci;
+
+GRANT ALL ON web2012.* TO 'web' IDENTIFIED BY 'asdf';
+
+use web2012;
+
+CREATE TABLE members(
+	    email VARCHAR(20) PRIMARY KEY NOT NULL,
+        name VARCHAR(20) NOT NULL,
+        password VARCHAR(20) NOT NULL
+);

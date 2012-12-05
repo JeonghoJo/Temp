@@ -1,0 +1,14 @@
+@CHARSET "UTF-8";
+
+table.table thead th {
+	background-color:#999;
+	color:#fff;
+}
+
+div.page-info b {
+	color:#369;
+}
+
+#sign_out{ display:inline; float:right; color:#999;padding:20px 0;}
+#sign_out a:hover, a:active {color:#999; text-decoration:underline;}
+#sign_out a:visited, a:link {color:#999;text-decoration:none;}

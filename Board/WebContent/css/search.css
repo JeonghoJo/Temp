@@ -1,0 +1,30 @@
+html{color:#000;
+background-color:#333;
+		padding:20px 0;
+		font: 12px/18px "맑은 고딕", "Malgun Gothic", "굴림", "Gulim", Verdan, Arial, Tahoma;
+}
+
+
+#wrap{width:960px; height:auto; margin:0 auto;}
+#head{width:960px;}
+
+#logo{ display:inline;}
+
+#sign_up{ display:inline; float:right; color:#999}
+#sign_up a:hover, a:active {color:#999; text-decoration:underline;}
+#sign_up a:visited, a:link {color:#999;text-decoration:none;}
+
+#body{width:960px;}
+#main_contents{ width:960px; height:auto; background-color:#999;}
+
+#main_contents div.section{width:920px; height:auto; border:2px; border-bottom-style:solid; border-color:#000; padding:5px; margin:10px;
+}
+#main_contents div.section div.article div.article_img{
+	display:inline; width:290px; height:inherit; padding:5px;}
+#main_contents div.section div.article div.article_text{
+ width:600px; padding:5px; display:inline;
+ }
+
+
+#foot{width:960px;}
+#information{color:#999; text-align:center;}
